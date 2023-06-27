@@ -1,0 +1,79 @@
+.cabecalho{
+    background-color: #146826;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabecalho-imagem{
+    width: 5%;
+    margin: 0;
+
+}
+.cabecalho-lista a{
+    text-decoration: none;
+    color: white;
+}
+.cabecalho-item {
+    display: block;
+    margin: 0 16px;
+    font-size: 15px;
+ 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.matematica-imagem{
+    width: 25%;
+    margin: 0;
+}
+
+.MatematicaII{
+    background-image: linear-gradient(#42a367  #45a56a);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.matematica-div-conteudo{
+    width: 35%;
+}
+.matematica-titulo{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 120px;
+}
+.estudante-icone{
+    width: 24px;
+}
+.estudante-div{
+    text-align:center ;
+}
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: #146826;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+
+}
